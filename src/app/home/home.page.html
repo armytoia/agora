@@ -1,14 +1,18 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Prova
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <ion-input [(ngModel)]="val1"></ion-input>
+  <ion-input [(ngModel)]="val2"></ion-input>
+
+  <ion-input (click)="somar()"></ion-input>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    Eu vou conseguir!
+    <p></p>
   </div>
 </ion-content>
